@@ -1,0 +1,45 @@
+:root {
+  --primary: grey;
+  --bg: white;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  background-color: var(--bg);
+  color: rgb(0, 0, 0);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(196, 201, 205, 0.148);
+  padding: 0.9rem 4%;
+  border: 10px;
+  align-items: center;
+}
+
+#img-mtr {
+  padding-left: 40px;
+  width: 30%;
+  height: auto;
+  display: flex;
+  border: 0;
+  float: left;
+}
+
+#parag {
+  font-size: 20px;
+  color: black;
+}
+
+#hi-1 {
+  font-size: 30px;
+}
